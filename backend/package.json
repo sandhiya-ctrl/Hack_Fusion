@@ -1,0 +1,21 @@
+{
+  "name": "surveyguard-backend",
+  "version": "1.0.0",
+  "description": "SurveyGuard AI - Node.js orchestration/API layer",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "multer": "^1.4.5-lts.1",
+    "csv-parse": "^5.5.6",
+    "axios": "^1.7.2",
+    "morgan": "^1.10.0"
+  }
+}
